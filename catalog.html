@@ -7,37 +7,41 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="favicon/32.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="favicon/152.svg">
   <link rel="manifest" href="manifest.webmanifest">
-
 </head>
 
-<body class="page-body">
+<body class="page-body inner-page">
 
 <header class="main-header">
-  <nav class="nav">
-    <a href="catalog.html">
+  <nav class="main-navigation">
+    <a class="main-header-logo" href="index.html">
       <img src="img/nerds-logo.svg" width="160" height="65"
  alt="Логотип Логотип дизайн-студия «Нёрдс»">
     </a>
-    <ul>
+    <div class="main-header-bar">
+      <div class="main-navigation-wrapper">
+        <ul class="site-navigation">
      <li><a href="blank.html">Студия</a></li>
      <li><a href="blank.html">Клиенты</a></li>
      <li><a>Магазин</a></li>
      <li><a href="blank.html">Контакты</a></li>
    </ul>
-
-    <a href="blank.html">Корзина</a>
-  </nav>
+   <div class="user-navigation">
+     <a class="login-link" href="blank.html">Корзина</a>
+   </div>
+      </div>
+    </div>
+ </nav>
 </header>
 
 <main class="container">
-  <h1 class="title-1">Магазин готовых шаблонов</h1>
 
-  <ul>
+  <h1 class="page-title">Магазин готовых шаблонов</h1>
+
+  <ul class="breadcrumbs">
     <li>
       <a href="catalog.html">Стоимость:</a>
     </li>
@@ -55,7 +59,7 @@
     </li>
   </ul>
 
-  <section>
+  <section class="features">
     <h2 class="subtitle">Фильтр товаров</h2>
     <form method="get" action="https://echo.htmlacademy.ru">
      <fieldset>
